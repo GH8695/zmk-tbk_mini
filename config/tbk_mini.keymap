@@ -58,7 +58,7 @@
 
             bindings = <
 &trans  &to 4      &kp LS(HOME)      &kp LC(LS(UP))    &kp LS(END)        &to 5   &kp HOME    &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &mo 3    &trans
-&trans  &kp LC(A)  &kp LC(LS(LEFT))  &kp LC(LS(DOWN))  &kp LC(RS(RIGHT))  &to 6   &kp END     &kp DOWN     &kp DOWN  &kp RIGHT      &kp SQT  &trans
+&trans  &kp LC(A)  &kp LC(LS(LEFT))  &kp LC(LS(DOWN))  &kp LC(RS(RIGHT))  &to 6   &kp END     &kp LEFT     &kp DOWN  &kp RIGHT      &kp SQT  &trans
 &trans  &kp LC(Z)  &kp LC(X)         &kp LC(C)         &kp LC(V)          &mo 7   &kp INSERT  &kp LBKT     &kp RBKT  &kp BSLH       &kp DEL  &trans
                                      &to 1             &to 0              &trans  &trans      &trans       &trans
             >;
