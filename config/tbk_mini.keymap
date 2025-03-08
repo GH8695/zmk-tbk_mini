@@ -132,10 +132,10 @@
 
         game_plus {
             bindings = <
-&kp F1  &kp NUMBER_1  &kp N5        &trans  &kp N7  &kp NUMBER_3  &trans  &trans  &trans    &trans  &trans  &trans
-&kp M   &kp B         &trans        &trans  &trans  &kp N         &trans  &trans  &trans    &trans  &trans  &trans
-&kp J   &kp NUMBER_2  &kp NUMBER_6  &kp P   &kp N8  &kp NUMBER_4  &trans  &trans  &trans    &trans  &trans  &trans
-                                    &trans  &kp T   &kp O         &trans  &trans  &kp CLCK
+&kp F1  &kp NUMBER_1  &kp N5        &trans  &kp N7  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans
+&kp M   &kp B         &trans        &trans  &trans  &kp N         &trans  &trans  &trans  &trans  &trans  &trans
+&kp J   &kp NUMBER_2  &kp NUMBER_6  &kp P   &kp N8  &kp NUMBER_4  &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans  &kp T   &kp O         &trans  &trans  &trans
             >;
         };
     };
