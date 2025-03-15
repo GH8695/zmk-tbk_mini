@@ -16,6 +16,100 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        kp_p {
+            bindings = <&kp P>;
+            key-positions = <1 0>;
+            layers = <4>;
+        };
+
+        kp_san {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <2 1>;
+            layers = <4>;
+        };
+
+        kp_si {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <26 25>;
+            layers = <4>;
+        };
+
+        kp_o {
+            bindings = <&kp O>;
+            key-positions = <5 4>;
+            layers = <4>;
+        };
+
+        kp_cap {
+            bindings = <&kp CAPS>;
+            key-positions = <12 37>;
+            layers = <4>;
+        };
+
+        kp_5 {
+            bindings = <&kp N5>;
+            key-positions = <36 1>;
+            layers = <4>;
+        };
+
+        kp6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <36 25>;
+            layers = <4>;
+        };
+
+        kp7 {
+            bindings = <&kp N7>;
+            key-positions = <36 1 2>;
+            layers = <4>;
+        };
+
+        kp8 {
+            bindings = <&kp N8>;
+            key-positions = <36 26 25>;
+            layers = <4>;
+        };
+
+        kpi {
+            bindings = <&kp I>;
+            key-positions = <37 4>;
+            layers = <4>;
+        };
+
+        kpm {
+            bindings = <&kp M>;
+            key-positions = <37 12>;
+            layers = <4>;
+        };
+
+        kpn {
+            bindings = <&kp N>;
+            key-positions = <37 29>;
+            layers = <4>;
+        };
+
+        kpj {
+            bindings = <&kp J>;
+            key-positions = <37 24>;
+            layers = <4>;
+        };
+
+        kpt {
+            bindings = <&kp T>;
+            key-positions = <37 5>;
+            layers = <4>;
+        };
+
+        kpf1 {
+            bindings = <&kp F1>;
+            key-positions = <26 27 28>;
+            layers = <4>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
